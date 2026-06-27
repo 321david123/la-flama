@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0C0C0C" />
+
+  <title>La Flama Restaurant · Elevated Mexican Cuisine in Rock Island, IL</title>
+  <meta name="description" content="La Flama Restaurant — elevated Mexican cuisine in Rock Island & the Quad Cities since 2004. All-day breakfast, street tacos, birria, catering for 20+ and a seasonal food truck." />
+  <meta name="keywords" content="La Flama, Mexican restaurant, Rock Island, Quad Cities, tacos, birria, all-day breakfast, catering, food truck, fajitas" />
+  <meta name="author" content="La Flama Restaurant" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="restaurant" />
+  <meta property="og:title" content="La Flama Restaurant · Elevated Mexican Cuisine" />
+  <meta property="og:description" content="Bold, fiery, refined Mexican cuisine in Rock Island, IL since 2004. All-day breakfast, street tacos, catering & a seasonal food truck." />
+  <meta property="og:image" content="assets/hero-tacos.jpg" />
+  <meta property="og:url" content="https://www.laflamarestaurantqc.com/" />
+  <meta property="og:site_name" content="La Flama Restaurant" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="La Flama Restaurant · Elevated Mexican Cuisine" />
+  <meta name="twitter:description" content="Bold, fiery, refined Mexican cuisine in Rock Island, IL since 2004." />
+  <meta name="twitter:image" content="assets/hero-tacos.jpg" />
+
+  <link rel="canonical" href="https://www.laflamarestaurantqc.com/" />
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link rel="apple-touch-icon" href="assets/favicon.png" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,500&family=Source+Sans+3:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+
+  <!-- Libraries -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "La Flama Restaurant",
+    "servesCuisine": "Mexican",
+    "image": "assets/hero-tacos.jpg",
+    "priceRange": "$$",
+    "telephone": "+13095533513",
+    "url": "https://www.laflamarestaurantqc.com/",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "2107 4th Ave",
+      "addressLocality": "Rock Island",
+      "addressRegion": "IL",
+      "postalCode": "61201",
+      "addressCountry": "US"
+    },
+    "openingHours": ["Mo 10:30-14:30", "Tu-Fr 10:30-20:00", "Sa 09:00-15:00", "Su 08:00-14:30"],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.4",
+      "reviewCount": "438"
+    }
+  }
+  </script>
+</head>
+
+<body>
+  <!-- grain overlay -->
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a class="nav__brand" href="#top" aria-label="La Flama Restaurant — home">
+        <img src="assets/logo.png" alt="La Flama Restaurant logo with stylized flame" width="120" height="68" />
+      </a>
+
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#story">Story</a>
+        <a href="#dishes">Dishes</a>
+        <a href="#menu">Menu</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#catering">Catering</a>
+        <a href="#visit">Visit</a>
+      </nav>
+
+      <div class="nav__actions">
+        <a class="btn btn--ghost" href="tel:+13095533513">(309) 553-3513</a>
+        <a class="btn btn--solid" href="https://order.online/store/LaFlamaRestaurant-33146228" target="_blank" rel="noopener">Order Now</a>
+      </div>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="overlayMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============ MOBILE OVERLAY ============ -->
+  <div class="overlay" id="overlayMenu" aria-hidden="true">
+    <nav class="overlay__nav" aria-label="Mobile">
+      <a href="#story">Story</a>
+      <a href="#dishes">Signature Dishes</a>
+      <a href="#menu">Menu</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#catering">Catering &amp; Truck</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#visit">Visit Us</a>
+    </nav>
+    <div class="overlay__foot">
+      <a class="btn btn--solid btn--block" href="https://order.online/store/LaFlamaRestaurant-33146228" target="_blank" rel="noopener">Order Now</a>
+      <a class="btn btn--ghost btn--block" href="tel:+13095533513">Call (309) 553-3513</a>
+    </div>
+  </div>
+
+  <main id="top">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="hero">
+      <div class="hero__media" data-parallax>
+        <img src="assets/shrimp-fajitas.jpg" alt="Sizzling shrimp fajitas with onions and bell peppers" class="hero__img" fetchpriority="high" width="1080" height="1350" />
+      </div>
+      <div class="hero__scrim" aria-hidden="true"></div>
+
+      <div class="hero__content">
+        <p class="hero__eyebrow"><span class="flame-dot" aria-hidden="true"></span>Rock Island &amp; the Quad Cities · Since 2004</p>
+        <h1 class="hero__title">
+          <span class="line">Elevated</span>
+          <span class="line line--accent">Mexican</span>
+          <span class="line">Fire.</span>
+        </h1>
+        <p class="hero__tagline">Bold, fiery flavor cooked with a healthier hand — all-day breakfast, street tacos, and birria worth the drive.</p>
+        <div class="hero__cta">
+          <a class="btn btn--solid btn--lg" href="https://order.online/store/LaFlamaRestaurant-33146228" target="_blank" rel="noopener">Order Now</a>
+          <a class="btn btn--outline btn--lg" href="#catering">Request Catering</a>
+        </div>
+      </div>
+
+      <a href="#story" class="hero__scroll" aria-label="Scroll to story">
+        <span class="hero__scroll-line"></span>
+        <span class="hero__scroll-text">Scroll</span>
+      </a>
+    </section>
+
+    <!-- ============ STORY ============ -->
+    <section class="story" id="story">
+      <div class="story__grid">
+        <div class="story__text" data-reveal>
+          <p class="kicker">Nuestra Historia</p>
+          <h2 class="h2">Two decades of fire, flavor &amp; familia.</h2>
+          <p>La Flama has served Rock Island and the greater Quad Cities since <strong>2004</strong> — locally owned and proudly part of the community for over two decades. We bring elevated Mexican cuisine that honors traditional roots while cooking with <strong>non-saturated oils</strong> for a healthier approach that never sacrifices flavor.</p>
+          <p>Our all-day breakfast and vibrant lunch are made for nearby offices and professionals, served in an elegant, refined-but-welcoming dining room with warm reclaimed-wood textures. In <strong>December 2024</strong> we opened our new location — same fresh ingredients, same bold, fiery taste.</p>
+          <a class="link-arrow" href="#dishes">See the signature dishes <span aria-hidden="true">&rarr;</span></a>
+        </div>
+
+        <div class="story__media" data-reveal>
+          <img src="assets/interior-bar.jpg" alt="Wooden bar with stone front, black chairs and glowing pendant lights" loading="lazy" decoding="async" width="764" height="1020" />
+        </div>
+      </div>
+
+      <div class="stats" data-reveal>
+        <div class="stat">
+          <span class="stat__num" data-count="2004" data-suffix="">2004</span>
+          <span class="stat__label">Serving since</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num" data-count="438" data-suffix="">0</span>
+          <span class="stat__label">Guest reviews</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num" data-count="4.4" data-suffix="★" data-decimals="1">0</span>
+          <span class="stat__label">Average rating</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num" data-count="20" data-suffix="+">0</span>
+          <span class="stat__label">Catering minimum</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SIGNATURE DISHES ============ -->
+    <section class="dishes" id="dishes">
+      <div class="section-head" data-reveal>
+        <p class="kicker">Signature Plates</p>
+        <h2 class="h2 h2--center">Fired up, made fresh, plated with pride.</h2>
+      </div>
+
+      <article class="dish" data-reveal>
+        <div class="dish__media">
+          <img src="assets/birria-tacos.jpg" alt="Birria-style corn tortilla tacos with dark, slow-cooked shredded meat" loading="lazy" decoding="async" width="900" height="900" />
+        </div>
+        <div class="dish__text">
+          <span class="dish__index">01</span>
+          <h3 class="h3">Birria Tacos</h3>
+          <p>Slow-braised, deeply spiced shredded beef on griddled corn tortillas with a rich consommé for dipping. "Sooo yummy," in the words of a regular — and we agree.</p>
+        </div>
+      </article>
+
+      <article class="dish dish--reverse" data-reveal>
+        <div class="dish__media">
+          <img src="assets/street-tacos.jpg" alt="Three street tacos topped with meat, cilantro, onions and avocado" loading="lazy" decoding="async" width="900" height="900" />
+        </div>
+        <div class="dish__text">
+          <span class="dish__index">02</span>
+          <h3 class="h3">Street Tacos</h3>
+          <p>Soft corn tortillas, cilantro, onion and a house salsa with a nice little kick — finished with our craveable salsa verde. A trio that earns the trip.</p>
+        </div>
+      </article>
+
+      <article class="dish" data-reveal>
+        <div class="dish__media">
+          <img src="assets/big-burrito.jpg" alt="Large golden-brown grilled burrito on a red plate" loading="lazy" decoding="async" width="900" height="900" />
+        </div>
+        <div class="dish__text">
+          <span class="dish__index">03</span>
+          <h3 class="h3">The Big Burrito</h3>
+          <p>Our Wednesday special. "I unwrap it and it just melts in your mouth." Griddled golden, generously stuffed — steak, carnitas, al pastor, birria and more.</p>
+        </div>
+      </article>
+
+      <article class="dish dish--reverse" data-reveal>
+        <div class="dish__media">
+          <img src="assets/huevos-rancheros.jpg" alt="Two sunny-side-up eggs over refried beans, rice and guacamole" loading="lazy" decoding="async" width="900" height="900" />
+        </div>
+        <div class="dish__text">
+          <span class="dish__index">04</span>
+          <h3 class="h3">All-Day Breakfast</h3>
+          <p>Huevos rancheros, fluffy waffles, loaded omelets and more — served from open to close. Breakfast all day, every day, just the way our regulars like it.</p>
+        </div>
+      </article>
+    </section>
+
+    <!-- ============ MENU ============ -->
+    <section class="menu" id="menu">
+      <div class="section-head" data-reveal>
+        <p class="kicker">El Menú</p>
+        <h2 class="h2 h2--center">The Menu</h2>
+        <p class="section-sub">Prices shown are starting prices. Add your protein, build your plate.</p>
+      </div>
+
+      <div class="menu__tabs" role="tablist" aria-label="Menu sections" data-reveal>
+        <button class="menu__tab is-active" id="tab-nachos" role="tab" aria-selected="true" aria-controls="panel-nachos" data-tab="nachos">Nachos</button>
+        <button class="menu__tab" id="tab-quesadillas" role="tab" aria-selected="false" aria-controls="panel-quesadillas" data-tab="quesadillas">Quesadillas</button>
+        <button class="menu__tab" id="tab-pick2" role="tab" aria-selected="false" aria-controls="panel-pick2" data-tab="pick2">Pick 2</button>
+        <button class="menu__tab" id="tab-tacos" role="tab" aria-selected="false" aria-controls="panel-tacos" data-tab="tacos">Tacos &amp; Burritos</button>
+        <button class="menu__tab" id="tab-walking" role="tab" aria-selected="false" aria-controls="panel-walking" data-tab="walking">Walking Tacos</button>
+        <button class="menu__tab" id="tab-drinks" role="tab" aria-selected="false" aria-controls="panel-drinks" data-tab="drinks">Drinks</button>
+      </div>
+
+      <div class="menu__panels">
+        <!-- NACHOS -->
+        <div class="menu__panel is-active" id="panel-nachos" role="tabpanel" aria-labelledby="tab-nachos" data-panel="nachos">
+          <ul class="menu__list">
+            <li class="menu__item"><div class="menu__row"><span class="menu__name">Ground Beef</span><span class="menu__dots" aria-hidden="true"></span><span class="menu__price">$12+</span></div><p class="menu__desc">Crispy tortilla chips topped with seasoned ground beef, melted cheese, beans, pico de gallo, sour cream and guacamole.</p></li>
+            <li class="menu__item"><div class="menu__row"><span class="menu__name">Steak</span><span class="menu__dots" aria-hidden="true"></span><span class="menu__price">$12+</span></div><p class="menu__desc">Grilled steak, refried beans, melted cheese, pico de gallo, sour cream, guacamole and jalapeños.</p></li>
+            <li class="menu__item"><div class="menu__row"><span class="menu__name">Ranchero Steak</span><span class="menu__dots" aria-hidden="true"></span><span class="menu__price">$12+</span></div><p class="menu__desc">Grilled steak with beans, melted cheese, tomatoes, onions, bell peppers and cheese sauce.</p></li>
+            <li class="menu__item"><div class="menu__row"><span class="menu__name">Spicy Pork</span><span class="menu__dots" aria-hidden="true"></span><span class="menu__price">$12+</span></div><p class="menu__desc">Slow-roasted pork, cheese, jalapeños, topped with tomatoes, scallions, red salsa and sour cream.</p></li>
+            <li class="menu__item"><div class="menu__row"><span class="menu__name">Chicken</span><span class="menu__dots" aria-hidden="true"></span><span class="menu__price">$12+</span></div><p class="menu__desc">Shredded chicken, melted cheese, beans, sour cream, pico de gallo and jalapeños.</p></li>
+            <li class="menu__item"><div class="menu__row"><span class="menu__name">Al Pastor</span><span class="menu__dots" aria-hidden="true"></span><span class="menu__price">$12+</span></div><p class="menu__desc">Marinated pork, pineapple, melted cheese, beans, pico de gallo, sour cream, guacamole and jalapeños.</p></li>
+            <li class="menu__item"><div class="menu__row"><span class="menu__name">Beans</span><span class="menu__dots" aria-hidden="true"></span><span class="menu__price">$12+</span></div><p class="menu__desc">Nacho chips topped with refried beans and melted cheese.</p></li>
+          </ul>
+        </div>
+
+        <!-- QUESADILLAS -->
+        <div class="menu__panel" id="panel-quesadillas" role="tabpanel" aria-labelledby="tab-quesadillas" data-panel="quesadillas">
+          <ul class="menu__list">
+            <li class="menu__item"><div class="menu__row"><span class="menu__name">Ground Beef</span><span class="menu__dots" aria-hidden="true"></span><span class="menu__price">$12+</span></div><p class="menu__desc">Flour tortilla filled with ground beef, melted cheese, lettuce, sour cream and pico de gallo.</p></li>
+            <li class="menu__item"><div class="menu__row"><span class="menu__name">Steak</span><span class="menu__dots" aria-hidden="true"></span><span class="menu__price">$12+</span></div><p class="menu__desc">Grilled steak with melted cheese, pico de gallo, guacamole and sour cream.</p></li>
+            <li class="menu__item"><div class="menu__row"><span class="menu__name">Spicy Pork</span><span class="menu__dots" aria-hidden="true"></span><span class="menu__price">$12+</span></div><p class="menu__desc">Spicy slow-roasted pork in a grilled flour tortilla.</p></li>
+            <li class="menu__item"><div class="menu__row"><span class="menu__name">Al Pastor</span><span class="menu__dots" aria-hidden="true"></span><span class="menu__price">$12+</span></div><p class="menu__desc">Marinated pork with melted cheese, pineapple, onions and cilantro.</p></li>
+            <li class="menu__item"><div class="menu__row"><span class="menu__name">Ranchero Steak</span><span class="menu__dots" aria-hidden="true"></span><span class="menu__price">$12+</span></div><p class="menu__desc">Ranchero steak, cheese, guacamole, onions, lettuce, tomatoes and sour cream.</p></li>
+            <li class="menu__item"><div class="menu__row"><span class="menu__name">Chicken</span><span class="menu__dots" aria-hidden="true"></span><span class="menu__price">$12+</span></div><p class="menu__desc">Grilled chicken, melted cheese, pico de gallo and sour cream.</p></li>
+          </ul>
+        </div>
+
+        <!-- PICK 2 -->
+        <div class="menu__panel" id="panel-pick2" role="tabpanel" aria-labelledby="tab-pick2" data-panel="pick2">
+          <p class="menu__note">Each served with your choice of two: Beans &amp; Rice, All Beans, or All Rice.</p>
+          <ul class="menu__list">
+            <li class="menu__item"><div class="menu__row"><span class="menu__name">Ground Beef</span><span class="menu__dots" aria-hidden="true"></span><span class="menu__price">$12+</span></div></li>
+            <li class="menu__item"><div class="menu__row"><span class="menu__name">Shredded Chicken</span><span class="menu__dots" aria-hidden="true"></span><span class="menu__price">$12+</span></div></li>
+            <li class="menu__item"><div class="menu__row"><span class="menu__name">Al Pastor</span><span class="menu__dots" aria-hidden="true"></span><span class="menu__price">$12+</span></div></li>
+            <li class="menu__item"><div class="menu__row"><span class="menu__name">Steak</span><span class="menu__dots" aria-hidden="true"></span><span class="menu__price">$12+</span></div></li>
+            <li class="menu__item"><div class="menu__row"><span class="menu__name">Spicy Pork Carnitas</span><span class="menu__dots" aria-hidden="true"></span><span class="menu__price">$12+</span></div></li>
+            <li class="menu__item"><div class="menu__row"><span class="menu__name">Ranchero Steak</span><span class="menu__dots" aria-hidden="true"></span><span class="menu__price">$12+</span></div></li>
+          </ul>
+        </div>
+
+        <!-- TACOS & BURRITOS -->
+        <div class="menu__panel" id="panel-tacos" role="tabpanel" aria-labelledby="tab-tacos" data-panel="tacos">
+          <ul class="menu__list">
+            <li class="menu__item"><div class="menu__row"><span class="menu__name">Taco</span><span class="menu__dots" aria-hidden="true"></span><span class="menu__price">$4+</span></div><p class="menu__desc">Single taco served on a soft corn tortilla.</p></li>
+            <li class="menu__item"><div class="menu__row"><span class="menu__name">Taco Trio</span><span class="menu__dots" aria-hidden="true"></span><span class="menu__price">$12+</span></div><p class="menu__desc">Three tacos served on soft corn tortillas.</p></li>
+            <li class="menu__item"><div class="menu__row"><span class="menu__name">Burrito</span><span class="menu__dots" aria-hidden="true"></span><span class="menu__price">$12+</span></div><p class="menu__desc">Choice of steak, chicken, ground beef, carnitas, al pastor, spicy pork, ranchero steak or birria.</p></li>
+          </ul>
+        </div>
+
+        <!-- WALKING TACOS -->
+        <div class="menu__panel" id="panel-walking" role="tabpanel" aria-labelledby="tab-walking" data-panel="walking">
+          <p class="menu__note">Topped with lettuce, tomato, cheese and sour cream.</p>
+          <ul class="menu__list">
+            <li class="menu__item"><div class="menu__row"><span class="menu__name">Doritos</span><span class="menu__dots" aria-hidden="true"></span><span class="menu__price">$6+</span></div></li>
+            <li class="menu__item"><div class="menu__row"><span class="menu__name">Flaming Cheetos</span><span class="menu__dots" aria-hidden="true"></span><span class="menu__price">$6+</span></div></li>
+            <li class="menu__item"><div class="menu__row"><span class="menu__name">Fritos</span><span class="menu__dots" aria-hidden="true"></span><span class="menu__price">$6+</span></div></li>
+          </ul>
+        </div>
+
+        <!-- DRINKS -->
+        <div class="menu__panel" id="panel-drinks" role="tabpanel" aria-labelledby="tab-drinks" data-panel="drinks">
+          <ul class="menu__list">
+            <li class="menu__item"><div class="menu__row"><span class="menu__name">Mexican Coca-Cola</span><span class="menu__dots" aria-hidden="true"></span><span class="menu__price">$3.50+</span></div><p class="menu__desc">Made with pure cane sugar, served in a bottle.</p></li>
+            <li class="menu__item"><div class="menu__row"><span class="menu__name">Pepsi · Diet Pepsi</span><span class="menu__dots" aria-hidden="true"></span><span class="menu__price">$1.50+</span></div></li>
+            <li class="menu__item"><div class="menu__row"><span class="menu__name">Mountain Dew</span><span class="menu__dots" aria-hidden="true"></span><span class="menu__price">$1.50+</span></div></li>
+            <li class="menu__item"><div class="menu__row"><span class="menu__name">Dr Pepper</span><span class="menu__dots" aria-hidden="true"></span><span class="menu__price">$1.50+</span></div></li>
+            <li class="menu__item"><div class="menu__row"><span class="menu__name">Starry</span><span class="menu__dots" aria-hidden="true"></span><span class="menu__price">$1.50+</span></div></li>
+            <li class="menu__item"><div class="menu__row"><span class="menu__name">Orange Crush</span><span class="menu__dots" aria-hidden="true"></span><span class="menu__price">$1.50+</span></div></li>
+            <li class="menu__item"><div class="menu__row"><span class="menu__name">Lemonade</span><span class="menu__dots" aria-hidden="true"></span><span class="menu__price">$1.50+</span></div></li>
+            <li class="menu__item"><div class="menu__row"><span class="menu__name">Brewed Iced Tea</span><span class="menu__dots" aria-hidden="true"></span><span class="menu__price">$1.50+</span></div></li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="menu__cta-line" data-reveal>Hungry now? <a href="https://order.online/store/LaFlamaRestaurant-33146228" target="_blank" rel="noopener">Order online for pickup or delivery &rarr;</a></p>
+    </section>
+
+    <!-- ============ GALLERY ============ -->
+    <section class="gallery" id="gallery">
+      <div class="section-head" data-reveal>
+        <p class="kicker">From the Kitchen</p>
+        <h2 class="h2 h2--center">A taste in pictures.</h2>
+      </div>
+
+      <div class="swiper gallerySwiper" data-reveal>
+        <div class="swiper-wrapper">
+          <div class="swiper-slide gallery__slide"><img src="assets/shrimp-fajitas.jpg" alt="Sizzling shrimp fajitas" loading="lazy" decoding="async" /></div>
+          <div class="swiper-slide gallery__slide"><img src="assets/hero-tacos.jpg" alt="Four tacos in a red-and-white checkered basket" loading="lazy" decoding="async" /></div>
+          <div class="swiper-slide gallery__slide"><img src="assets/churros.jpg" alt="Churros with vanilla ice cream and caramel drizzle" loading="lazy" decoding="async" /></div>
+          <div class="swiper-slide gallery__slide"><img src="assets/waffle-breakfast.jpg" alt="Waffle and egg breakfast plate" loading="lazy" decoding="async" /></div>
+          <div class="swiper-slide gallery__slide"><img src="assets/cocktails-strawberry.jpg" alt="Strawberry-garnished cocktails on a wooden bar" loading="lazy" decoding="async" /></div>
+          <div class="swiper-slide gallery__slide"><img src="assets/crepes.jpg" alt="Rolled crepes with whipped cream and strawberries" loading="lazy" decoding="async" /></div>
+          <div class="swiper-slide gallery__slide"><img src="assets/omelet.jpg" alt="Ham and tomato omelet with roasted potatoes" loading="lazy" decoding="async" /></div>
+          <div class="swiper-slide gallery__slide"><img src="assets/michelada.jpg" alt="Michelada-style Corona in a cocktail mug with lime" loading="lazy" decoding="async" /></div>
+          <div class="swiper-slide gallery__slide"><img src="assets/eggs-stew.jpg" alt="Fried eggs with stewed meat, refried beans and Mexican rice" loading="lazy" decoding="async" /></div>
+          <div class="swiper-slide gallery__slide"><img src="assets/table-chips.jpg" alt="Restaurant table with menu, chips and queso" loading="lazy" decoding="async" /></div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!-- ============ FEATURES ============ -->
+    <section class="features" id="features">
+      <div class="section-head" data-reveal>
+        <p class="kicker">More Than a Table</p>
+        <h2 class="h2 h2--center">However you want La Flama.</h2>
+      </div>
+      <div class="features__grid">
+        <div class="feature" data-reveal>
+          <span class="feature__icon" aria-hidden="true">🔥</span>
+          <h3 class="feature__title">Catering for 20+</h3>
+          <p>Offices, weddings, graduations and company picnics. Full-service catering for groups of twenty or more.</p>
+        </div>
+        <div class="feature" data-reveal>
+          <span class="feature__icon" aria-hidden="true">🚚</span>
+          <h3 class="feature__title">Food Truck</h3>
+          <p>On-site service for large events. Truck season runs May through October across the Quad Cities.</p>
+        </div>
+        <div class="feature" data-reveal>
+          <span class="feature__icon" aria-hidden="true">🍳</span>
+          <h3 class="feature__title">All-Day Breakfast</h3>
+          <p>Huevos rancheros, waffles and omelets served from open to close — every single day.</p>
+        </div>
+        <div class="feature" data-reveal>
+          <span class="feature__icon" aria-hidden="true">🛵</span>
+          <h3 class="feature__title">Order &amp; Delivery</h3>
+          <p>Pickup or delivery online and on DoorDash. Your favorites, on your schedule.</p>
+        </div>
+        <div class="feature" data-reveal>
+          <span class="feature__icon" aria-hidden="true">🍹</span>
+          <h3 class="feature__title">Full Bar</h3>
+          <p>Margaritas, micheladas and cane-sugar classics to round out the meal.</p>
+        </div>
+        <div class="feature" data-reveal>
+          <span class="feature__icon" aria-hidden="true">🎉</span>
+          <h3 class="feature__title">Events</h3>
+          <p>From intimate gatherings to company celebrations, we bring the fire to your occasion.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CATERING CTA ============ -->
+    <section class="catering" id="catering">
+      <div class="catering__media" data-parallax>
+        <img src="assets/cocktails-mugs.jpg" alt="Yellow and red cocktails garnished with lime" loading="lazy" decoding="async" />
+      </div>
+      <div class="catering__scrim" aria-hidden="true"></div>
+      <div class="catering__inner" data-reveal>
+        <p class="kicker kicker--light">Catering &amp; Food Truck</p>
+        <h2 class="h2 h2--light">Bring the fire to your event.</h2>
+        <p class="catering__copy">Tell us your date and headcount and we'll build a menu for your office lunch, wedding, graduation or company picnic. Groups of 20 or more — truck season May through October.</p>
+        <div class="catering__cta">
+          <a class="btn btn--solid btn--lg" href="tel:+13095533513">Call to Book</a>
+          <a class="btn btn--outline btn--lg btn--outline-light" href="https://www.laflamarestaurantqc.com/" target="_blank" rel="noopener">Request a Quote</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ REVIEWS ============ -->
+    <section class="reviews" id="reviews">
+      <div class="section-head" data-reveal>
+        <p class="kicker">Word of Mouth</p>
+        <h2 class="h2 h2--center">4.4 stars across 438 reviews.</h2>
+        <div class="reviews__stars-wrap"><span class="reviews__stars" role="img" aria-label="4.4 out of 5 stars" aria-hidden="false"></span></div>
+      </div>
+
+      <div class="swiper reviewsSwiper" data-reveal>
+        <div class="swiper-wrapper">
+          <blockquote class="swiper-slide review">
+            <div class="review__stars" aria-hidden="true">★★★★★</div>
+            <p class="review__quote">"I eat here once a week. The Wednesday special is the big burrito — I unwrap it and it just melts in your mouth. The staff are fabulous, very friendly and kind. The restaurant is clean and homey. Breakfast all day."</p>
+            <cite class="review__author">Regular guest <span>· La Flama Reviews</span></cite>
+          </blockquote>
+          <blockquote class="swiper-slide review">
+            <div class="review__stars" aria-hidden="true">★★★★★</div>
+            <p class="review__quote">"Super friendly, helpful, and accommodating for my pickup order. Delicious food. I'm glad they're offering dinner now!"</p>
+            <cite class="review__author">Pickup customer <span>· La Flama Reviews</span></cite>
+          </blockquote>
+          <blockquote class="swiper-slide review">
+            <div class="review__stars" aria-hidden="true">★★★★★</div>
+            <p class="review__quote">"Everything I've tried has been fantastic. I crave their shredded chicken, fideo, and salsa verde."</p>
+            <cite class="review__author">Guest <span>· La Flama Reviews</span></cite>
+          </blockquote>
+          <blockquote class="swiper-slide review">
+            <div class="review__stars" aria-hidden="true">★★★★★</div>
+            <p class="review__quote">"The street tacos were excellent. $10 after tax for an order of 3 is a very good price nowadays. Great flavor. The salsa had a nice little kick to it. Definitely will be back."</p>
+            <cite class="review__author">Guest <span>· La Flama Reviews</span></cite>
+          </blockquote>
+          <blockquote class="swiper-slide review">
+            <div class="review__stars" aria-hidden="true">★★★★★</div>
+            <p class="review__quote">"Friendly staff and good quick food. The Birria Tacos were sooo yummy."</p>
+            <cite class="review__author">Guest <span>· La Flama Reviews</span></cite>
+          </blockquote>
+        </div>
+        <div class="swiper-pagination reviews__pagination"></div>
+      </div>
+    </section>
+
+    <!-- ============ VISIT ============ -->
+    <section class="visit" id="visit">
+      <div class="visit__grid">
+        <div class="visit__info" data-reveal>
+          <p class="kicker">Visit Us</p>
+          <h2 class="h2">Find the flame.</h2>
+
+          <div class="visit__block">
+            <h3 class="visit__label">Address</h3>
+            <p><a href="https://www.google.com/maps?q=La+Flama+Restaurant,+2107+4th+Ave,+Rock+Island,+IL+61201" target="_blank" rel="noopener">2107 4th Ave<br />Rock Island, IL 61201</a></p>
+          </div>
+
+          <div class="visit__block">
+            <h3 class="visit__label">Phone</h3>
+            <p><a href="tel:+13095533513">(309) 553-3513</a></p>
+          </div>
+
+          <div class="visit__block">
+            <h3 class="visit__label">Hours</h3>
+            <table class="hours">
+              <tbody>
+                <tr><th scope="row">Monday</th><td>10:30am – 2:30pm</td></tr>
+                <tr><th scope="row">Tue – Fri</th><td>10:30am – 8:00pm</td></tr>
+                <tr><th scope="row">Saturday</th><td>9:00am – 3:00pm</td></tr>
+                <tr><th scope="row">Sunday</th><td>8:00am – 2:30pm</td></tr>
+              </tbody>
+            </table>
+            <p class="visit__small">Catering &amp; food-truck service available outside restaurant hours.</p>
+          </div>
+        </div>
+
+        <div class="visit__map" data-reveal>
+          <iframe
+            title="Map to La Flama Restaurant, 2107 4th Ave, Rock Island, IL"
+            src="https://www.google.com/maps?q=La+Flama+Restaurant,+2107+4th+Ave,+Rock+Island,+IL+61201&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <img src="assets/logo.png" alt="La Flama Restaurant logo" width="150" height="85" loading="lazy" />
+        <p class="footer__tag">Elevated Mexican cuisine · Rock Island &amp; the Quad Cities · Since 2004</p>
+      </div>
+
+      <nav class="footer__col" aria-label="Footer">
+        <h4>Explore</h4>
+        <a href="#story">Our Story</a>
+        <a href="#menu">Menu</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#catering">Catering &amp; Truck</a>
+        <a href="#visit">Visit Us</a>
+      </nav>
+
+      <div class="footer__col">
+        <h4>Order</h4>
+        <a href="https://order.online/store/LaFlamaRestaurant-33146228" target="_blank" rel="noopener">Order Online</a>
+        <a href="https://www.doordash.com/en/business/la-flama-restaurant-14011177/" target="_blank" rel="noopener">DoorDash</a>
+        <a href="tel:+13095533513">(309) 553-3513</a>
+      </div>
+
+      <div class="footer__col">
+        <h4>Follow</h4>
+        <a href="https://instagram.com/laflama7" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://facebook.com/LaFlamaRestaurant/" target="_blank" rel="noopener">Facebook</a>
+        <a href="https://www.google.com/maps?q=La+Flama+Restaurant,+2107+4th+Ave,+Rock+Island,+IL+61201" target="_blank" rel="noopener">Google Maps</a>
+      </div>
+    </div>
+
+    <div class="footer__bar">
+      <p>© <span id="year">2026</span> La Flama Restaurant. All rights reserved.</p>
+      <p class="footer__credit">Website crafted by <strong>Sonríe México</strong></p>
+    </div>
+  </footer>
+
+  <!-- ============ STICKY MOBILE ACTION BAR ============ -->
+  <div class="actionbar" aria-label="Quick actions">
+    <a href="tel:+13095533513" class="actionbar__btn"><span aria-hidden="true">📞</span>Call</a>
+    <a href="https://order.online/store/LaFlamaRestaurant-33146228" target="_blank" rel="noopener" class="actionbar__btn actionbar__btn--primary"><span aria-hidden="true">🌮</span>Order</a>
+    <a href="#catering" class="actionbar__btn"><span aria-hidden="true">🔥</span>Catering</a>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
