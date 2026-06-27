@@ -63,7 +63,7 @@
   /* ---------- Lenis smooth scroll ---------- */
   let lenis = null;
   if (!prefersReduced && typeof Lenis !== "undefined") {
-    lenis = new Lenis({ duration: 1.1, smoothWheel: true });
+    lenis = new Lenis({ lerp: 0.1, smoothWheel: true, wheelMultiplier: 1 });
     function raf(time) { lenis.raf(time); requestAnimationFrame(raf); }
     requestAnimationFrame(raf);
   }
@@ -89,8 +89,6 @@
     // Keep ScrollTrigger in sync with Lenis
     if (lenis) {
       lenis.on("scroll", ScrollTrigger.update);
-      gsap.ticker.add((t) => lenis.raf(t * 1000));
-      gsap.ticker.lagSmoothing(0);
     }
 
     if (!prefersReduced) {
