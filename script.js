@@ -10,7 +10,7 @@
 
   /* ---------- Footer year ---------- */
   const yearEl = document.getElementById("year");
-  if (yearEl) yearEl.textContent = new Date().getFullYear();
+  if (yearEl) yearEl.textContent = "2026";
 
   /* ---------- Sticky nav solidify ---------- */
   const nav = document.getElementById("nav");
